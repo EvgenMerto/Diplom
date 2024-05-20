@@ -1,16 +1,15 @@
 <!DOCTYPE html>
 <html>
 <body>
-<optgroup label="Уч.заведения">
-<option selected="selected">Детский сад</option>
-<option seleсted="selected">Школа</option>
-<option seleсted="selected">Колледж</option>
-<option seleсted="selected">Университет</option>
-</optgroup>
-</select>
+<input type="text" list="edulevel" name="education">
+<datalist id = "edulevel" >
+<option value="Школа">
+<option value="Колледж"> 
+<option value="Университет">
+<option value="Другое">
+</datalist>
   
-<p>Образование полное: <input type="text" 
-list="edulevel" name="education">
+<p>Образование полное: <input type="text" list="edulevel" name="education">
 <datalist id = "edulevel" >
 <option value="Среднее">
 <option value="Среднее специальное"> 
